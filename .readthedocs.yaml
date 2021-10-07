@@ -5,3 +5,7 @@ python:
 
 sphinx:
   fail_on_warning: true
+
+install:
+  - method: pip
+    path: .
