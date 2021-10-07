@@ -2,10 +2,11 @@ version: 2
 
 python:
   version: "3.8"
+  # Install our python package
+  install:
+    - method: pip
+      path: .
+
 
 sphinx:
   fail_on_warning: true
-
-install:
-  - method: pip
-    path: .
